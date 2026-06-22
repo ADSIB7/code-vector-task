@@ -2,6 +2,12 @@
   publish = "frontend"
 
 [[redirects]]
+  from = "/products"
+  to = "https://code-vector-task.onrender.com/products"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/products/*"
   to = "https://code-vector-task.onrender.com/products/:splat"
   status = 200
