@@ -1,0 +1,5 @@
+backend/.env
+backend/test/
+backend/node_modules/
+.DS_Store
+Thumbs.db
